@@ -12,8 +12,8 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # Definições do comprimento e tamnho do historico.
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=999999
+HISTFILESIZE=999999
 
 #===========================================
 # Váriavies com as Cores
@@ -59,7 +59,7 @@ if [ $UID -eq "0" ]; then
 
 ## Cores e efeitos do Usuario root
 
-PS1="$G┌─[$BR\u$G]$BY@$G[$BW${HOSTNAME%%.*}$G]$B:\w\n$G└──>$BR \\$ $NONE"
+PS1="$G┌─[$BR\u$G]$BC@$G[$BW${HOSTNAME%%.*}$G]$Y:\w\n$G└──>$BR \\$ $NONE"
 
 else
 
