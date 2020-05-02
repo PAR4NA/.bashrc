@@ -1,7 +1,7 @@
 # .bashrc
 # Como Usar
-mv /root/.bashrc /root/.bashrc_bk && \
-wget -O /root/.bashrc https://raw.githubusercontent.com/PAR4NA/.bashrc/master/.bashrc
+mv ~/.bashrc ~/.bashrc_bk && \
+wget -O ~/.bashrc https://raw.githubusercontent.com/PAR4NA/.bashrc/master/.bashrc
 
 
 # Add Landscape
